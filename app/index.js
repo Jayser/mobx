@@ -1,8 +1,11 @@
 import './assets/scss/main.scss';
 
 import React from 'react';
-import {render} from 'react-dom';
+import { render } from 'react-dom';
 
-import Test from './components/test/index';
+import Counter from './components/Counter';
 
-render(<Test />, document.getElementById('app'));
+render(
+    <Counter />,
+    document.getElementById('app')
+);
